@@ -8,7 +8,7 @@ const WidgetSm = () => {
       <span className="widgetSmTitle">New Join Member</span>
       <ul className="widgetSmList">
         <li className="widgetListItem">
-          <img src="./images/profilePic.jpeg" alt="" className="widgetImg" />
+          <img src="./images/user-pic.jpg" alt="" className="widgetImg" />
           <div className="widgetUser">
             <span className="widgetSmUsername">Wubsefer Mengitu</span>
             <span className="widgetSmUserTitle">Software Engineer</span>

@@ -3,6 +3,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbars/Topbar";
 import "./app.css";
 import Home from "./pages/home/Home";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Sidebar />
         <Home />
       </div>
+      <Footer />
     </div>
   );
 }
