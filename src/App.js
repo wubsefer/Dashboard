@@ -4,18 +4,22 @@ import Topbar from "./components/topbars/Topbar";
 import "./app.css";
 import Home from "./pages/home/Home";
 import Footer from "./components/footer/Footer";
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import UserList from "./pages/user/UserList";
 
-
-function App() {
+const App = () => {
   return (
-    <div>
+    <Router>
       <Topbar />
       <div className="container">
         <Sidebar />
-        <Home />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/users" element={<UserList />} />
+        </Routes>
       </div>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
