@@ -3,8 +3,14 @@
     height: 30px;
     display: flex;
     font-size: 14px;
-    justify-content: center;
+    padding-left: 20px;
+    justify-content: left;
     align-items: center;
     background-color: #e0eafc;
     color: #3F80EA;
+}
+
+.footerIcon{
+    font-size: 9px;
+    color: red;
 }
